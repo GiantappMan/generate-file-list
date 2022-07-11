@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateFileList", "GenerateFileList\GenerateFileList.csproj", "{D0E01FB9-699F-44C7-90FA-2E830E134052}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenerateFileList", "GenerateFileList\GenerateFileList.csproj", "{D0E01FB9-699F-44C7-90FA-2E830E134052}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{B9C719D8-654B-4EEE-85F8-1DD1546E4511}"
+	ProjectSection(SolutionItems) = preProject
+		..\docs\Build.md = ..\docs\Build.md
+		..\README.md = ..\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
