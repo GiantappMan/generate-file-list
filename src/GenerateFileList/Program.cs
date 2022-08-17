@@ -21,11 +21,13 @@ namespace GenerateFileList
             });
 
             //写入text
-            string destPath = Path.Combine(_workDir, "list.txt");
+            string destPath = Path.Combine(_workDir, "_list.txt");
             var writer = new StreamWriter(destPath);
             int count = 0;
             foreach (var file in files)
             {
+                if (file == destPath)
+                    continue;
                 count++;
                 writer.WriteLine(file.Substring(_workDir.Length + 1));
             }

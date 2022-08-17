@@ -7,7 +7,7 @@
     <PackAsTool>true</PackAsTool>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <AssemblyName>GFL</AssemblyName>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/DaZiYuan/generate-file-list</PackageProjectUrl>
   </PropertyGroup>
